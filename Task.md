@@ -2,6 +2,7 @@
 
 In this file, you can fin some of the most important commands or cheats that exists in git.
 
+
 ##Configuration
 
 Obviously, we need to set up our environment in which we are going to work. For this, git provides us some cheats to set default values. For example:
@@ -12,6 +13,7 @@ This set us the name that will be attached tp our commits and tags.
 `$ git config --global user.email "Your email"`
 It is like the previous one, just that is our email, not our name (It shows in commits and tags).
 
+
 ## Start
 
 Then, we have to start our project, for this, git gives us these tools:
@@ -21,6 +23,7 @@ This will create a local repository inside of a directory created locally as wel
 
 `$ git clone [project url]`
 This comman will download a project from a remote repository.
+
 
 ## Daily Flux
 
@@ -62,10 +65,20 @@ While we are working in a team, surely, we are going to need the use of branches
 Shows a listing of all local branches.
 
 `$ git checkout [-b][branch_name]`
-Switches our working directory to the specified branch, the [-b] creates a new branch if it does not exist
+Switches our working directory to the specified branch, the __[-b]__ creates a new branch if it does not exist
 
 `$ git merge [from name]`
-It merges or joins two branches, the [from name] to the current branch.
+It merges or joins two branches, the __[from name]__ to the current branch.
 
 `$ git branch -d [name]`
 When we merge a branch to another, the branch that has been merged, is now "useless", so we can remove thibranch if is already merged in any other.
+
+
+## Review
+
+To see, what we are doing in the project, who commited or did changes, git has this command.
+
+`$ git log [-n count]`
+Lists all the commits specified, for this, just replace __n__ for the limit wanted.
+
+
