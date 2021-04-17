@@ -21,3 +21,34 @@ This will create a local repository inside of a directory created locally as wel
 
 `$ git clone [project url]`
 This comman will download a project from a remote repository.
+
+## Daily Flux
+
+Once we started our project, we will get into it and it is important to know how to work properly using git commands.
+
+`$ git status`
+This is probably the command that we will use most when we are working, because, this command displays the status of thw working directory, showing us created, deleted or modified files
+
+`$ git add [file]`
+This command will be used for staging your files, ready to commit them.
+
+`$ git diff [file]`
+It shows changes between our working directory and the staging area.
+
+`$ git diff --staged [file]`
+It shows changes between the staging area and the local repository.
+
+`$ git reset [file]`
+This cheat will make our repository return to a previous known state.
+
+`$ git commit`
+Creates a new commit of the changes that are in the staging area. The commit should have a message, you can add one directly just typing `-m "Your message"` just after the command from above.
+
+`$ git rm [file]`
+Probably, sometimes you will need to undo things or to add something to your staging area and this command would be helpful for some of this cases, will remove the file from the working directory and staging area.
+
+`$ git stash`
+I think this cheat was not seen in class, but in my experience as a git user, I think is very useful, it saves the current changes of the working directory into a stash so we can use them later.
+
+`$ git stash pop`
+Applies the stored changes in the stash into the working directory again.
