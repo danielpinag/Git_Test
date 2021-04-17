@@ -52,3 +52,20 @@ I think this cheat was not seen in class, but in my experience as a git user, I 
 
 `$ git stash pop`
 Applies the stored changes in the stash into the working directory again.
+
+
+## Branching
+
+While we are working in a team, surely, we are going to need the use of branches, so we can modify our project or work, without affecting in other changes or features, for this, git provides us this commands.
+
+`$ git branch [-a]`
+Shows a listing of all local branches.
+
+`$ git checkout [-b][branch_name]`
+Switches our working directory to the specified branch, the [-b] creates a new branch if it does not exist
+
+`$ git merge [from name]`
+It merges or joins two branches, the [from name] to the current branch.
+
+`$ git branch -d [name]`
+When we merge a branch to another, the branch that has been merged, is now "useless", so we can remove thibranch if is already merged in any other.
